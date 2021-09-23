@@ -20,14 +20,14 @@ bot.start("bot token") // Start bot with token
 <hr>
 
 ### Methods
-### getMessage
+#### getMessage
 
 | Param Name    | Param Type  | Required |
 | ------------- |-------------| -------- |
 | channel_id    | string      |   true   |
 | message_id    | centered    |   true   |
 
-#### Example
+##### Example
 ```javascript
 <Application>.getMessage("channel_id", "message_id")
 ```
