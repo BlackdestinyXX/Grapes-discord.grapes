@@ -18,7 +18,8 @@ const bot = new grapes.Application() // Create new bot
 bot.start("bot token") // Start bot with token
 ```
 <hr>
-### Methods <br>
+
+### Methods
 ### getMessage
 
 | Param Name    | Param Type  | Required |
