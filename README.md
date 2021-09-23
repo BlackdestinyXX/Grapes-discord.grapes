@@ -44,5 +44,5 @@ bot.start("bot token") // Start bot with token
 // without embeds
 <Application instance>.sendMessage("channel_id", "message_content")
 // with embeds
-<Application instance>.sendMessage("channel_id", "message_content", [{ title: 'Some title', url: 'https://discord.js.org', description: 'Some description here'}])
+<Application instance>.sendMessage("channel_id", "message_content", [{ title: 'Some title', description: 'Some description here'}])
 ```
