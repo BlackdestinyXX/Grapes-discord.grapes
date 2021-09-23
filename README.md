@@ -31,3 +31,18 @@ bot.start("bot token") // Start bot with token
 ```javascript
 <Application instance>.getMessage("channel_id", "message_id")
 ```
+#### sendMessage
+
+| Param Name    | Param Type  | Required |
+| ------------- |-------------| -------- |
+| channel_id    | string      |   true   |
+| message_content    | string      |   true   |
+| embeds   | array of objects      |   false   |
+
+##### Example
+```javascript
+// without embeds
+<Application instance>.sendMessage("channel_id", "message_content")
+// with embeds
+<Application instance>.sendMessage("channel_id", "message_content", [{ title: 'Some title', url: 'https://discord.js.org', description: 'Some description here'}])
+```
