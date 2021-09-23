@@ -29,5 +29,5 @@ bot.start("bot token") // Start bot with token
 
 ##### Example
 ```javascript
-<Application>.getMessage("channel_id", "message_id")
+<Application instance>.getMessage("channel_id", "message_id")
 ```
