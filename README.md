@@ -25,7 +25,7 @@ bot.start("bot token") // Start bot with token
 | Param Name    | Param Type  | Required |
 | ------------- |-------------| -------- |
 | channel_id    | string      |   true   |
-| message_id    | centered    |   true   |
+| message_id    | string      |   true   |
 
 ##### Example
 ```javascript
